@@ -25,7 +25,7 @@ public class ScoreCard {
     //}
 
     public int getRedBoxerFinalScore() {
-        return Integer.parseInt(redCorner);
+        //return Integer.parseInt(redCorner);
     }
 
 }
