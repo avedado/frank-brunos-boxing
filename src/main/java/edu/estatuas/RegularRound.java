@@ -10,6 +10,10 @@ public class RegularRound implements Round{
         this.roundScore = roundScore;
     }
 
+    String getRoundScore() {
+        return this.roundScore;
+    }
+
     public void boxerRoundScore() {
         String score=roundScore.replace("\s", "");
         int position = score.indexOf("-");
